@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+#m{
+  position: relative;
+  top:300px;
+  min-width: 10%; 
+  min-height: 10%;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,0.7);
+  color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="static/bg.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <div class="topnav" id="myTopnav" style="background-color:radial-gradient(rgba(255, 252, 252, 0.6),rgba(0,0,0,0));color:azure;height: 144px;font-size:20px;width:100%;display:flex;justify-content:space-evenly;align-items:center">
+    <img src="static/il_fullxfull.2240394309_otqr.webp" style="height:72px;left:0px">
+    <h2 style="top:0px;left:144px">Wolff Parkinson White Syndrome</h2>
+       <a  href='index'> <button style="background-color:rgba(0, 0, 0, 0.0);color:rgb(255, 255, 255);height:50px;width:50px;font-size: medium;border:none"><b>Home</b></button></a>
+       <a  href='detect'> <button style="background-color:rgba(0, 0, 0, 0.0);color:rgb(255, 255, 255);height:50px;width:70px;font-size: medium;border:none"><b>Detect</b></button></a>
+       <a  href='sy'>  <button  style="background-color:rgba(0, 0, 0, 0.0);color:rgb(255, 255, 255);height:50px;width:95px;font-size: medium;border:none"><b>Symptoms</b></button></a>
+       <a  href='ce'> <button   style="background-color:rgba(0, 0, 0, 0.0);color:rgb(255, 255, 255);height:50px;width:160px;font-size: medium;border:none"><b>Medical Centres</b></button></a>
+       <a  href='Tr'> <button   style="background-color:rgba(0, 0, 0, 0.0);color:rgb(255, 255, 255);height:50px;width:120px;font-size: medium;border:none"><b>Treatment</b></button></a>
+  </div>
+<br>
+<div class="box">
+    <div class="box">
+        <img src="static/wolff-parkinson-white-syndrome-oklahoma-heart-hospital.jpg" style="height:240px;width:480px">
+        <h1 style="position:absolute;left:50%;top:180px;color:rgb(255, 0, 0)"><b>Wolff Parkinson White Syndrome</b></h1>
+        <p style="position:absolute;left:40%;top:250px;">Wolff-Parkinson-White syndrome (WPW) is a rare condition affecting the electrical pathways that regulate how the heart beats. With WPW, there is an extra electrical pathway between the heart’s upper and lower chambers, which causes the lower chambers to beat too early and the heart to beat rapidly.</p>
+        <br>
+        <video width="480" height="240" autoplay muted loop style="position:absolute;left:55%;top:380px;">
+            <source src="static/bradycardia-4211.mp4" type="video/mp4">
+          </video>
+        <div type="box" style="position:absolute;top:480px;height:250px;width:650px">This extra electrical pathway is present from birth. WPW is associated with the presence of other structural heart defects, most commonly a condition known as Ebstein anomaly, and certain genetic mutations. However, little is known about how or why WPW develops.</p>
+        
+    </div>  
+</div>
+</body>
+</html>
+    
