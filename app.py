@@ -11,7 +11,6 @@ from fileinput import filename
 from flask import *
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from scipy.io import loadmat
-import matplotlib.pyplot as plt
 from scipy import signal
 from tqdm import tqdm
 import neurokit2 as nk
