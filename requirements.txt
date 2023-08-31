@@ -4,7 +4,7 @@ scipy
 tqdm
 pandas
 tensorflow
-keras
+keras == 2.6.2
 scikit-learn
 gunicorn
 Flask
